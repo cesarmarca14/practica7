@@ -132,6 +132,15 @@ box-shadow:  16px 16px 32px #a19c9c,
 .imer{
     letter-spacing: 10px;
 }
+/* Carrucel */
+.carrucel{
+    width: 1440px;
+    
+    margin: auto;
+    max-width: 85%;
+
+}
+
 
 /* segunda section CristhianMedina */
 .image-container {
