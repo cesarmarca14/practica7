@@ -3,68 +3,95 @@
     padding: 0;
 }
                 /* cesar_inicio */
-/* .container_cesar{
-    width: 1440px;
-    height: auto;
-    display: flex;
-    margin: auto;
-    /* border: solid; */
-    /* flex-wrap: wrap;
-    display: flex;
-    justify-content:space-around;
-    border: solid blue; */
-/* } */ */
-
-
-.img_img2{
-    margin-top: 50px;
-}
-img{
-    width: 250px;
-    height: 350px;
-    margin: 10px;
-    /* border-radius: 3; */
-}
-
-img:hover{
-    border-radius: 50px 10px;
-}
-.tex_container{
-    /* border: solid; */
-    width: 1200px;
-    margin-left: 60px;
-    display: flex;
-    justify-content: space-between
-}
-.p_cesar{
-    font-size: 35px;
-    letter-spacing: 8px;
-}
-.boton{
-    margin-right: 65px;
-    margin-top: 5px;
-    width: 120px;
-    height: 30px;
-    background: black;
-    color: white;
-    letter-spacing: 5px;
-    font-size: 10px;
-    margin-right: 200px;
-    
-}
-.boton:hover{
-    background: blue;
-    color: rgb(255, 255, 255);
-    border-radius: 30px;
-    font-size: 15px;
-}
-.cesar_container{
-  
-    width: 1440px;
-    max-width: 85%;
-    margin: auto;
-    
-}
+                .grid {
+                    width: 1200px;
+                    height: 100vh;
+                    margin: auto;
+                    
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-rows: repeat(5, 1fr);
+                    gap: 10px;
+                  }
+                  
+                  .item{
+                      border: solid white;
+                      grid-area: span 2;
+                  }
+                  .img{
+                      height: 375px;
+                      width:auto;
+                  }
+                  .item1 {
+                      /* background: rgb(8, 174, 11); */
+                      grid-column: 1/5;
+                      grid-row: 1/2;
+                      display: flex;
+                      justify-content: space-between;
+                      /* border: solid; */
+                    }
+                  
+                  .item2{
+                      background: url(./images/desktop/image-deep-earth.jpg)no-repeat ;
+                      background-size: cover;
+                      /* background-position: center; */
+                  }
+                  .item3{
+                      background: url(./images/desktop/image-night-arcade.jpg)no-repeat ;
+                      background-size: cover;
+                  }
+                  .item4{
+                      background: url(./images/desktop/image-soccer-team.jpg)no-repeat ;
+                      background-size: cover;
+                  }
+                  .item5{
+                      background: url(./images/desktop/image-grid.jpg)no-repeat ;
+                      background-size: cover;
+                  }
+                  .item6{
+                      background: url(./images/desktop/image-from-above.jpg)no-repeat ;
+                      background-size: cover;
+                  }
+                  .item7{
+                      background: url(./images/desktop/image-pocket-borealis.jpg)no-repeat ;
+                      background-size: cover;
+                  }
+                  .item8{
+                      background: url(./images/desktop/image-curiosity.jpg)no-repeat ;
+                      background-size: cover;
+                  }
+                  .item9{
+                      background: url(./images/desktop/image-fisheye.jpg)no-repeat ;
+                      background-size: cover;
+                  }
+                  .item{
+                      display: flex;
+                      align-items: end;
+                      
+                      
+                  }
+                  .texto_img{
+                      font-size: 45px;
+                      color: white;
+                      margin-bottom:20px;
+                      margin-left:40px;
+                      font-family:Arial, Helvetica, sans-serif;
+                      
+                  }
+                  .texto_header{
+                      font-size: 50px;
+                      letter-spacing: 10px;
+                      margin-bottom: 80px;
+                  }
+                  .boton{
+                      width: 150px;
+                      height: 40px;
+                      background: black;
+                      color: white;
+                      font-size: 15px;
+                      margin-bottom: 80px;
+                  
+                  }
         /* fin cesar */
 /* Cristhian Medina header */
 .contenedor_header{
