@@ -95,4 +95,13 @@
   
   }
   
-  
+             /* responsive */
+@media screen and (max-width: 800px) {
+    body {
+        background: black;
+    }
+    /* .section-principal {
+      display: flex;
+      flex-wrap: wrap;
+    } */
+}
