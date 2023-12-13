@@ -2,7 +2,61 @@
     margin: 0;
     padding: 0;
 }
+                /* cesar_inicio */
+.container_cesar{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    /* border: solid; */
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-around;
+}
 
+
+.img_img2{
+    margin-top: 50px;
+}
+img{
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    /* border-radius: 3; */
+}
+
+img:hover{
+    border-radius: 50px 10px;
+}
+.tex_container{
+    /* border: solid; */
+    width: 1200px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between
+}
+.p_cesar{
+    font-size: 35px;
+    letter-spacing: 8px;
+}
+.boton{
+    margin-right: 65px;
+    margin-top: 5px;
+    width: 120px;
+    height: 30px;
+    background: black;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 10px;
+    
+}
+.boton:hover{
+    background: blue;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    font-size: 15px;
+}
+        /* fin cesar */
 .contenedor_header{
     width: 1440px;
     display: flex;
