@@ -136,6 +136,10 @@ li :hover {
 
   width: 90%;
 }
+.login{
+  text-decoration: none;
+  color: white; 
+}
 
 .contenedor_immersive {
   display: flex;
