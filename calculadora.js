@@ -65,7 +65,6 @@ function calcularPrecioTotal(nombre, cantidad) {
     }
 }
 
-// Ejemplos de uso:
 console.log(calcularPrecioTotal('refresco', 3));
 console.log(calcularPrecioTotal('cerveza', 2));
 console.log(calcularPrecioTotal('papitas', 1));
