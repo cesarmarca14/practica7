@@ -2,7 +2,15 @@
   margin: 0;
   padding: 0;
 }
+.contenedor_total{
+  background-color: #5a5454;
+}
 /* cesar_inicio */
+
+.container{
+  
+  background-color: whitesmoke;
+}
 .grid {
   width: 1200px;
   height: 100vh;
@@ -89,7 +97,7 @@
   margin-bottom: 80px;
 }
 .cesar_container{
-    border: solid black;
+  
     margin-bottom: 50px;
 }
 /* fin cesar */
