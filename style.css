@@ -79,7 +79,10 @@ box-shadow:  16px 16px 32px #a19c9c,
     max-width: 50%;
     height: 500px;
    
-    
+.imagen2{
+
+
+}   
 
 }
 
@@ -108,4 +111,30 @@ box-shadow:  16px 16px 32px #a19c9c,
 .ptexto{
     padding-left: 200px;
     color: #b1b1b1;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 20px;
 }
