@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+   
+    <h2>Carousel</h2>
+
+    <div id="carouselExampleCaptions" class="carousel slide" style="max-width: 60%; margin: auto;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 500px;">
+            <img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F11%2Favatar-the-experience-cloud-forest-gardens-by-the-bay-singapore-inside-look-info-021.jpg?cbr=1&q=90"class="d-block w-100 h-100" alt="FutureWorld">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><strong>Future World</strong></h5>
+              <p><strong>One of the most visited places in Singapore.</strong></p>
+            </div>
+          </div>
+          <div class="carousel-item" style="height: 500px;">
+            <img src="https://offloadmedia.feverup.com/parissecret.com/wp-content/uploads/2022/06/16132425/spi3110.jpg" class="d-block w-100 h-100" alt="DestinationCosmos">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><strong>Destination Cosmos</strong></h5>
+              <p><strong>You must visit this place in Paris.</strong></p>
+            </div>
+          </div>
+          <div class="carousel-item" style="height: 500px;">
+            <img src="https://njproductions.us/images/blog/2022-09-ohios-immersive-art-experience-otherworld/2022-09-ohios-immersive-art-experience-otherworld.jpg" class="d-block w-100 h-100" alt="Otherworld">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><strong>Otherworld</strong></h5>
+              <p><strong>A fantastic place based in Birmingham.</strong></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      
+      <!-- Button trigger modal -->
+      <div class="d-flex justify-content-center mt-3">
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Inmersive Experience!
+        </button>
+    </div>
+  
+  <!-- Modal -->
+  
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Inmersive Experience</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            You are inside a fascinating inmersive experience
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>  
+
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
